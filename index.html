@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Refúgio - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: white;
+            background: url('https://i.imgur.com/PvEm9ps.png') fixed;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: rgba(0,0,0,0.8);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9em;
+        }
+
+        .content {
+            padding: 100px 20px 50px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .cta {
+            background: #8B0000;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 0.85em;
+            border: 1px solid #FFD700;
+        }
+
+        .cta:hover {
+            background: #6B0000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="regras.html" class="nav-link">Regras</a>
+        <a href="doacoes.html" class="nav-link">Doações</a>
+    </nav>
+
+    <div class="content">
+        <h1>Bem-vindo ao Último Refúgio</h1>
+        
+        <div class="cta-grid">
+            <a href="regras.html" class="cta">📜 Ver Regras</a>
+            <a href="doacoes.html" class="cta">💎 Tornar-se VIP</a>
+            <a href="SEU_LINK_DISCORD" class="cta">🎧 Entrar no Discord</a>
+        </div>
+    </div>
+</body>
+</html>
